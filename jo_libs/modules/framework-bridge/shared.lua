@@ -51,7 +51,14 @@ local supportedFrameworks = {
     name = "RPX Framework",
     folder = "rpx",
     resources = { "rpx-core" }
-  }
+  },
+
+  {
+    id = "tpzcore",
+    name = "TPZ-CORE Framework",
+    folder = "tpzcore",
+    resources = { "tpz_core" },
+  },
 }
 
 local function extractResourceData(str)
